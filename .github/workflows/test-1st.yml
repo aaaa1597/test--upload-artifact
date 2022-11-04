@@ -1,6 +1,10 @@
-name: test-1st GitHub Actions
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+name: test-1st upload artifacts2
+run-name: ${{ github.actor }} is testing out from 俺2 GitHub Actions 🚀
+
+on:
+  push:
+    branches: ["master"]
+
 jobs:
   test-GitHub-Actions:
     runs-on: ubuntu-latest
