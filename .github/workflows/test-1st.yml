@@ -1,12 +1,8 @@
-name: test-1st upload artifacts2
-run-name: ${{ github.actor }} is testing out from 俺2 GitHub Actions 🚀
-
-on:
-  push:
-    branches: ["master"]
-
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
 jobs:
-  test-GitHub-Actions:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
