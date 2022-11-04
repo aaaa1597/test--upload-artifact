@@ -6,9 +6,10 @@ on:
     branches: ["master"]
 
 jobs:
-  upload:
+  aaaaa:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - uses: actions/checkout@v2
       - run: mkdir -p path/to/artifact
       - run: pwd
